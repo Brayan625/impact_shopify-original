@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_peXdwT": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here",
+            "url": ""
+          }
+        },
         "message_QLJKU7": {
           "type": "message",
           "settings": {
@@ -31,12 +38,13 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Satisfait ou remboursé",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_peXdwT",
         "message_QLJKU7",
         "message_RMBmAj",
         "message"
