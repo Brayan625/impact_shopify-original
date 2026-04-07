@@ -56,11 +56,62 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "logo_list_fAbpMj": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_Tb3gNH": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/keratin_ub.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_fTWLtB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/faire.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_kwhjXa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/vinci.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Tb3gNH",
+        "logo_fTWLtB",
+        "logo_kwhjXa"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#f0f0f0"
+      }
     }
   },
   "order": [
     "slideshow",
     "impact-text",
-    "image-with-text-overlay"
+    "image-with-text-overlay",
+    "logo_list_fAbpMj"
   ]
 }
